@@ -1,0 +1,62 @@
+.myPanel{ margin: 3%;
+  margin-right: 75%;
+border: 1px solid #1D7320;
+border-radius: 5px;
+box-shadow: 0px 0px 3px #A7A8A7;
+background-color:#E7F7C3;
+
+}
+
+.myPanel .header{
+background: #9AFCC5;
+border: 1px solid #1D7320;
+border-radius: 5px 5px 0 0 #A7A8A7;
+font-family:"Comic Sans MS";
+padding: 5px 10px;
+}
+
+.myPanel .body{
+  padding: 5px 10px;
+  font-family:"Comic Sans MS";
+}
+
+.myPanel .showOnHover{
+  display:none;
+}
+
+.myPanel:hover{
+  box-shadow: 0px 0px 3px #black;
+  border: 2px solid #1D7320;
+}
+
+.myPanel:hover .showOnHover{
+  display:inline-block;
+}
+
+.checkout{
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 0px 5px #686966;
+  padding: 10px 10px;
+  margin:10%;
+  font-family:"Comic Sans MS";
+
+}
+
+.h1 {
+  background-color: #B0DE78;
+  border: 1px solid black;
+  border-radius: 0 0 5px 5px;
+  color:black;
+  font-size:75px;
+  font-family: "Comic Sans MS";
+  text-align:center;
+  margin:0;
+}
+
+body{
+background-image:url(https://img00.deviantart.net/4035/i/2012/123/f/6/market_background_1_by_mandydax-d4ye923.png);
+  margin:0;
+  font-family: "Comic Sans MS";
+}
